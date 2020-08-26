@@ -44,13 +44,12 @@
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eE1-tx-hZM">
                                 <rect key="frame" x="30" y="454" width="354" height="339"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="rLj-AI-tJp" firstAttribute="centerX" secondItem="ZOz-bm-aWB" secondAttribute="centerX" id="1PQ-Oo-I63"/>
                             <constraint firstItem="ZOz-bm-aWB" firstAttribute="top" secondItem="rLj-AI-tJp" secondAttribute="bottom" constant="8" id="6Vp-hv-fPk"/>
@@ -72,6 +71,7 @@
                         <outlet property="buttonObject" destination="ZOz-bm-aWB" id="JrT-mO-YtQ"/>
                         <outlet property="displayText" destination="eE1-tx-hZM" id="Knf-WX-9eQ"/>
                         <outlet property="instructionLabel" destination="rLj-AI-tJp" id="RHF-Wp-Rgc"/>
+                        <outlet property="myView" destination="8bC-Xf-vdC" id="d6q-DN-ZPe"/>
                         <outlet property="thankYouImage" destination="C1S-oN-HrT" id="E2g-6y-MB8"/>
                     </connections>
                 </viewController>
