@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func touchInside(_ sender: UIButton) {
-    
+
         buttonObject.setTitle("Please Contact", for: UIControl.State.normal)
         buttonObject.backgroundColor = UIColor.purple
         buttonObject.setTitleColor(UIColor.white, for: UIControl.State.normal)
@@ -37,13 +37,9 @@ class ViewController: UIViewController {
         instructionLabel.textColor = UIColor.magenta
         instructionLabel.font = UIFont.boldSystemFont(ofSize: 24)
         
-        //thankYouImage = UIImageView(image: UIImage(named: "myImage"))
-      
         thankYouImage.image = UIImage(named: thankYouMsg)
         
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "confetti.png")!)
-            
-        //myView.backgroundColor(UIImage(named: "confetti.png"))
     
          print("****** this is what you have in the text box when button is clicked: \(displayOwnerText)")
         

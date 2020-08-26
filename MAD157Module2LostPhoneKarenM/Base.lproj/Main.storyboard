@@ -33,7 +33,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="OK"/>
                                 <connections>
-                                    <action selector="touchInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1P5-c1-7Vn"/>
+                                    <action selector="touchInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rYq-Xj-0Cn"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lostFoundPhone.png" translatesAutoresizingMaskIntoConstraints="NO" id="C1S-oN-HrT">
