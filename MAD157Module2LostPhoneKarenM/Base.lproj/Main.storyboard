@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,77 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MAD157Module2LostPhoneKarenM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Click the button to display owner info for the sad individual that is now panicking about losing his/her electronic bff.  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLj-AI-tJp">
+                                <rect key="frame" x="51" y="293" width="313" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="41l-XJ-HFO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOz-bm-aWB">
+                                <rect key="frame" x="73" y="386" width="269" height="32"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="4LY-DP-hwi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="OK"/>
+                                <connections>
+                                    <action selector="touchInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1P5-c1-7Vn"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lostFoundPhone.png" translatesAutoresizingMaskIntoConstraints="NO" id="C1S-oN-HrT">
+                                <rect key="frame" x="87" y="157" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="c2e-eh-hyk"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eE1-tx-hZM">
+                                <rect key="frame" x="30" y="454" width="354" height="339"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rLj-AI-tJp" firstAttribute="centerX" secondItem="ZOz-bm-aWB" secondAttribute="centerX" id="1PQ-Oo-I63"/>
+                            <constraint firstItem="ZOz-bm-aWB" firstAttribute="top" secondItem="rLj-AI-tJp" secondAttribute="bottom" constant="8" id="6Vp-hv-fPk"/>
+                            <constraint firstItem="eE1-tx-hZM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="EGs-lE-eg8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eE1-tx-hZM" secondAttribute="bottom" constant="69" id="KC9-xC-VW7"/>
+                            <constraint firstItem="C1S-oN-HrT" firstAttribute="centerX" secondItem="rLj-AI-tJp" secondAttribute="centerX" id="MW8-Nt-U8s"/>
+                            <constraint firstItem="ZOz-bm-aWB" firstAttribute="centerX" secondItem="eE1-tx-hZM" secondAttribute="centerX" id="Rxp-br-Zen"/>
+                            <constraint firstItem="rLj-AI-tJp" firstAttribute="top" secondItem="C1S-oN-HrT" secondAttribute="bottom" constant="8" id="StD-wG-QSr"/>
+                            <constraint firstItem="eE1-tx-hZM" firstAttribute="top" secondItem="ZOz-bm-aWB" secondAttribute="bottom" constant="36" id="WBA-2D-pE6"/>
+                            <constraint firstItem="C1S-oN-HrT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ylj-ef-fDZ"/>
+                            <constraint firstItem="C1S-oN-HrT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="113" id="kRZ-Vu-SI9"/>
+                            <constraint firstItem="C1S-oN-HrT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="wco-qK-bMx"/>
+                            <constraint firstItem="ZOz-bm-aWB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="wyT-J6-FdK"/>
+                            <constraint firstItem="rLj-AI-tJp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="zdz-kb-UMs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonObject" destination="ZOz-bm-aWB" id="JrT-mO-YtQ"/>
+                        <outlet property="displayText" destination="eE1-tx-hZM" id="Knf-WX-9eQ"/>
+                        <outlet property="instructionLabel" destination="rLj-AI-tJp" id="RHF-Wp-Rgc"/>
+                        <outlet property="thankYouImage" destination="C1S-oN-HrT" id="E2g-6y-MB8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-630.43478260869574" y="20.758928571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lostFoundPhone.png" width="472" height="392"/>
+    </resources>
 </document>

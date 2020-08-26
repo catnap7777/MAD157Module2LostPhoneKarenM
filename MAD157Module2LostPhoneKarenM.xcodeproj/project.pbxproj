@@ -13,6 +13,8 @@
 		3A6C6CF224F5ECA60045671E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CF024F5ECA60045671E /* Main.storyboard */; };
 		3A6C6CF424F5ECA70045671E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CF324F5ECA70045671E /* Assets.xcassets */; };
 		3A6C6CF724F5ECA70045671E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CF524F5ECA70045671E /* LaunchScreen.storyboard */; };
+		3A6C6CFF24F5EE1E0045671E /* lostFoundPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CFE24F5EE1E0045671E /* lostFoundPhone.png */; };
+		3A6C6D0124F6A2D40045671E /* thankYou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6D0024F6A2D40045671E /* thankYou.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3A6C6CF324F5ECA70045671E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6C6CF624F5ECA70045671E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6C6CF824F5ECA70045671E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6C6CFE24F5EE1E0045671E /* lostFoundPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lostFoundPhone.png; path = ../../lostFoundPhone.png; sourceTree = "<group>"; };
+		3A6C6D0024F6A2D40045671E /* thankYou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thankYou.png; path = ../../thankYou.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3A6C6CEC24F5ECA60045671E /* SceneDelegate.swift */,
 				3A6C6CEE24F5ECA60045671E /* ViewController.swift */,
 				3A6C6CF024F5ECA60045671E /* Main.storyboard */,
+				3A6C6CFE24F5EE1E0045671E /* lostFoundPhone.png */,
+				3A6C6D0024F6A2D40045671E /* thankYou.png */,
 				3A6C6CF324F5ECA70045671E /* Assets.xcassets */,
 				3A6C6CF524F5ECA70045671E /* LaunchScreen.storyboard */,
 				3A6C6CF824F5ECA70045671E /* Info.plist */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6C6CF724F5ECA70045671E /* LaunchScreen.storyboard in Resources */,
+				3A6C6D0124F6A2D40045671E /* thankYou.png in Resources */,
+				3A6C6CFF24F5EE1E0045671E /* lostFoundPhone.png in Resources */,
 				3A6C6CF424F5ECA70045671E /* Assets.xcassets in Resources */,
 				3A6C6CF224F5ECA60045671E /* Main.storyboard in Resources */,
 			);
