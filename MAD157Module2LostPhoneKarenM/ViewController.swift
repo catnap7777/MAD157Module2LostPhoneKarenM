@@ -26,6 +26,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    /**
+    Function executed to display "contact info" msg when user presses the button on the screen
+    - parameters: none
+    - returns: nothing
+    */
+    
     @IBAction func touchUpInside(_ sender: UIButton) {
     
         buttonObject.setTitle("Please Contact", for: UIControl.State.normal)
