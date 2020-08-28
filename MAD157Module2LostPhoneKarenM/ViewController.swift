@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //.. the following is Xcode Markup and can be found on https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/
+    
     /**
     Function executed to display "contact info" msg when user presses the button on the screen
     - parameters: none
