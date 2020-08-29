@@ -39,19 +39,19 @@ class ViewController: UIViewController {
     @IBAction func touchUpInside(_ sender: UIButton) {
     
         buttonObject.setTitle("Please Contact", for: UIControl.State.normal)
-            buttonObject.backgroundColor = UIColor.purple
-            buttonObject.setTitleColor(UIColor.white, for: UIControl.State.normal)
-            
-            displayText.text = self.displayOwnerText
-            instructionLabel.text = self.youAreAwesomeMsg
-            instructionLabel.textColor = UIColor.magenta
-            instructionLabel.font = UIFont.boldSystemFont(ofSize: 24)
-            
-            thankYouImage.image = UIImage(named: thankYouMsg)
-            
-            self.view.backgroundColor = UIColor(patternImage: UIImage(named: "confetti.png")!)
+        buttonObject.backgroundColor = UIColor.purple
+        buttonObject.setTitleColor(UIColor.white, for: UIControl.State.normal)
         
-             print("****** this is what you have in the text box when button is clicked: \(displayOwnerText)")
+        displayText.text = self.displayOwnerText
+        instructionLabel.text = self.youAreAwesomeMsg
+        instructionLabel.textColor = UIColor.magenta
+        instructionLabel.font = UIFont.boldSystemFont(ofSize: 24)
+        
+        thankYouImage.image = UIImage(named: thankYouMsg)
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "confetti.png")!)
+    
+         print("****** this is what you have in the text box when button is clicked: \(displayOwnerText)")
             
         }
         
