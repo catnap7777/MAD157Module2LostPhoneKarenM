@@ -6,6 +6,8 @@
 //  Copyright © 2020 TygerMatrix Software. All rights reserved.
 //
 
+//.. Works specifically with iPhone 11
+
 import UIKit
 
 class ViewController: UIViewController {
