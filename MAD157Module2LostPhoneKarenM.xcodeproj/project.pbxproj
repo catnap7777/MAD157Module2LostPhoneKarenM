@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A45AF602502E86C002DCF0E /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A45AF5F2502E86C002DCF0E /* confetti.png */; };
+		3A45AF622502E87A002DCF0E /* lostFoundPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A45AF612502E87A002DCF0E /* lostFoundPhone.png */; };
+		3A45AF642502E886002DCF0E /* thankYou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A45AF632502E886002DCF0E /* thankYou.png */; };
 		3A6C6CEB24F5ECA60045671E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C6CEA24F5ECA60045671E /* AppDelegate.swift */; };
 		3A6C6CED24F5ECA60045671E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C6CEC24F5ECA60045671E /* SceneDelegate.swift */; };
 		3A6C6CEF24F5ECA60045671E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C6CEE24F5ECA60045671E /* ViewController.swift */; };
 		3A6C6CF224F5ECA60045671E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CF024F5ECA60045671E /* Main.storyboard */; };
 		3A6C6CF424F5ECA70045671E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CF324F5ECA70045671E /* Assets.xcassets */; };
 		3A6C6CF724F5ECA70045671E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CF524F5ECA70045671E /* LaunchScreen.storyboard */; };
-		3A6C6CFF24F5EE1E0045671E /* lostFoundPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6CFE24F5EE1E0045671E /* lostFoundPhone.png */; };
-		3A6C6D0124F6A2D40045671E /* thankYou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6D0024F6A2D40045671E /* thankYou.png */; };
-		3A6C6D0D24F727600045671E /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C6D0C24F727600045671E /* confetti.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A45AF5F2502E86C002DCF0E /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = SOURCE_ROOT; };
+		3A45AF612502E87A002DCF0E /* lostFoundPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lostFoundPhone.png; sourceTree = SOURCE_ROOT; };
+		3A45AF632502E886002DCF0E /* thankYou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thankYou.png; sourceTree = SOURCE_ROOT; };
 		3A6C6CE724F5ECA60045671E /* MAD157Module2LostPhoneKarenM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD157Module2LostPhoneKarenM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6C6CEA24F5ECA60045671E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6C6CEC24F5ECA60045671E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +30,6 @@
 		3A6C6CF324F5ECA70045671E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6C6CF624F5ECA70045671E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6C6CF824F5ECA70045671E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A6C6CFE24F5EE1E0045671E /* lostFoundPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lostFoundPhone.png; path = ../../lostFoundPhone.png; sourceTree = "<group>"; };
-		3A6C6D0024F6A2D40045671E /* thankYou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thankYou.png; path = ../../thankYou.png; sourceTree = "<group>"; };
-		3A6C6D0C24F727600045671E /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confetti.png; path = ../../confetti.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +66,10 @@
 				3A6C6CEC24F5ECA60045671E /* SceneDelegate.swift */,
 				3A6C6CEE24F5ECA60045671E /* ViewController.swift */,
 				3A6C6CF024F5ECA60045671E /* Main.storyboard */,
-				3A6C6CFE24F5EE1E0045671E /* lostFoundPhone.png */,
-				3A6C6D0024F6A2D40045671E /* thankYou.png */,
-				3A6C6D0C24F727600045671E /* confetti.png */,
 				3A6C6CF324F5ECA70045671E /* Assets.xcassets */,
+				3A45AF5F2502E86C002DCF0E /* confetti.png */,
+				3A45AF612502E87A002DCF0E /* lostFoundPhone.png */,
+				3A45AF632502E886002DCF0E /* thankYou.png */,
 				3A6C6CF524F5ECA70045671E /* LaunchScreen.storyboard */,
 				3A6C6CF824F5ECA70045671E /* Info.plist */,
 			);
@@ -134,12 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A45AF642502E886002DCF0E /* thankYou.png in Resources */,
 				3A6C6CF724F5ECA70045671E /* LaunchScreen.storyboard in Resources */,
-				3A6C6D0124F6A2D40045671E /* thankYou.png in Resources */,
-				3A6C6CFF24F5EE1E0045671E /* lostFoundPhone.png in Resources */,
+				3A45AF622502E87A002DCF0E /* lostFoundPhone.png in Resources */,
 				3A6C6CF424F5ECA70045671E /* Assets.xcassets in Resources */,
 				3A6C6CF224F5ECA60045671E /* Main.storyboard in Resources */,
-				3A6C6D0D24F727600045671E /* confetti.png in Resources */,
+				3A45AF602502E86C002DCF0E /* confetti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
